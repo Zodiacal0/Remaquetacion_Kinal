@@ -7,7 +7,7 @@
     --black-color-light: hsl(220, 24%, 15%);
     --black-color-lighten: hsl(220, 20%, 18%);
     --white-color: #fff;
-    --body-color: hsl(220, 100%, 97%);
+    --body-color:#fff;
 
     --body-font: "Montserrat", sans-serif;
     --normal-font-size: .938rem;
@@ -252,44 +252,53 @@ a {
 
 .redirect{
     margin-top: 30px;
-}
-.redirectContainer1{
-    display: flex;
-    height: 700px;
-    width: auto;
-    transform: translate(-2.5%, 0%);
     overflow-x: hidden;
 }
-
-.redirectContainer1 h4{
-    width: 75%;
-    text-align: center;
-    transform: translate(15%, 10%);
-}
-
-.redirectContainer2{
+.redirectContainer1 {
     display: flex;
-    height: 700px;
-    width: auto;
-    transform: translate(-2.5%, 0%);
-    overflow-x: hidden;
+    justify-content: space-around; 
+    align-items: center; 
 }
 
-.redirectContainer2 img{
-    transform: translate(50%, 0%);
+.redirectContent {
+    text-align: center; 
+    max-width: 300px; 
 }
 
-.redirectContainer2 h4{
-    width: 75%;
-    text-align: center;
-    transform: translate(75%, 10%);
+.redirectContent img {
+    max-width: 100%; 
+    height: auto; 
 }
 
-.redirectContainer2 .text{
-    position: relative;
-    width: 40%;
-    transform: translate(90%, 0%);
+.redirectContent h4 {
+    margin-top: 10px; 
 }
+
+
+.redirectContainer2 {
+    display: flex; 
+    justify-content: center; 
+    gap: 90px; 
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.redirectContent {
+    text-align: center; 
+    max-width: 300px; 
+}
+
+.redirectContent img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.redirectContent h4 {
+    margin-top: 10px; 
+    font-size: 1rem;
+}
+
+
 
 .partners {
     padding: 2rem;
@@ -383,6 +392,8 @@ a {
     color: rgb(10, 31, 88);
     text-decoration: none;
 }
+
+
 
 @media (max-width: 768px) {
     .partners__grid {
