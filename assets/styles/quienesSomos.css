@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.we{
+    display: flex;
+    margin-top: 85px;
+}
+
+.we_text {
+    background-color: #0A1F58;
+    color: white;
+    text-align: center; 
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    padding: 6%; 
+}
+
+.company-info {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.info-item {
+    flex: 1; 
+    background-color: #0A1F58;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.info-item:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.info-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.info-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.explain{
+    color: #0A1F58;
+    text-align: center; 
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    padding: 6%; 
+}
+
+.title_explain{
+    font-size: 35px;
+}
+
+.subExplain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    margin-top: 5%;
+    background-color: #0A1F58 ;
+
+}
+
+.subExplain p{
+    margin: 40px;
+    color: white;
+    width: 30%;
+    text-align: justify;
+}
+
+.subExplain img{
+    border-radius: 16px;
+}
