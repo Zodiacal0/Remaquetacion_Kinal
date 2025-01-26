@@ -1,0 +1,144 @@
+.diversified {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color:  #0A1F58;
+}
+
+.title_diver{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 24px;
+    color:  #0A1F58;
+}
+
+.diversified__content{
+    display: flex;
+    transform: translate(0%,-15%);
+}
+
+.diversified__header {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 150px;
+}
+
+.diversified__header h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.diversified__header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.diversified__header-img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.diversified__content {
+    margin-bottom: 2rem;
+}
+
+.diversified__content h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.diversified__content ul {
+    font-size: 1rem;
+    color: #555;
+    list-style: disc inside;
+    margin-left: 1rem;
+}
+
+.diversified__content ul ul {
+    list-style: circle inside;
+    margin-left: 1rem;
+}
+
+.diversified__content-img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.diversified__areas {
+    text-align: center;
+    transform: translate(0%,-15%);
+}
+
+.diversified__areas h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.diversified__areas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.area {
+    text-align: center;
+}
+
+.area img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.area p {
+    font-size: 1rem;
+    color: #555;
+    font-weight: bold;
+}
+
+.diversified__content {
+    display: flex;
+    align-items: flex-start; 
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.content1 {
+    flex: 1; 
+    color: #333;
+    transform: translate(8%,50%);
+}
+
+.content1 li{
+    font-size: 25px;
+
+}
+
+.content1 ul {
+    list-style: disc inside;
+}
+
+.content1 ul ul {
+    list-style: circle inside;
+    margin-left: 1rem;
+}
+
+.content2 {
+    flex: 1; 
+    text-align: center;
+}
+
+.diversified__content-img {
+    max-width: 100%; 
+    border-radius: 10px;
+    height: auto;
+}
